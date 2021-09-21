@@ -16,9 +16,9 @@ Web framework based on pyython.
 
 ## Homebrew Install:
 
-a. brew install python 3 (to download python)
+a. brew install python 3     (to download python)
 
-b. Install pipenv : (pip3) - package manager (python only)
+b. Install pipenv : (pip3) - package manager    (python only)
 
   - a virutal environment for python
 
@@ -34,7 +34,7 @@ c. use pipenv to install django
 
 a. got to virtual environment --> pipenv shell
 
-b. start project --> django-admin start project "" . (. represents current directory)
+b. start project --> django-admin start project "" .     (. represents current directory)
 
 c. start django server --> python manage.py runserver
 
@@ -43,3 +43,7 @@ d. given url for django project
 
 ## Creating Hello World
 
+a. create new app within project
+
+  - app --> focuses on particular aspect of website
+  - project --> single project powers website, can contain multiple apps

@@ -25,7 +25,6 @@ b. Install pipenv : (pip3) - package manager    (python only)
 c. use pipenv to install django
 
   - pipenv install django
-
   - creates a virtual envionment for django
 
       - virtual environment specifies which version of django wanted

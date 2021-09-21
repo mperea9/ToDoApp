@@ -64,20 +64,13 @@ c. let django know about the app   (hello)
            
       - create view
 
-          def myView(request):
+            def myView(request):
           
-            return HttpResponse('Hello')
+             return HttpResponse('Hello')
               
           run server --> python manage.py runserver
           
       - connect django server with URL
-
-          open urls.py in main project directory
-          
-          urlpatterns
-           
-          connect urls.py to views.py
      
-
 
 "Still need to provide rest of walk through"

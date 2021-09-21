@@ -56,4 +56,15 @@ c. let django know about the app   (hello)
   - open project in IDE
   - go to settings.py
       - add 'hello' in INSTALLED_APPS
-  - create a view for the target URL
+  - create a view for the target URL    (view = shown to user for certain URL)
+      - go to hello directory for views.py   (browser sends HTTP request to server, server responds with HTTP response)
+      - open views.py
+            
+           add "from django.http import HttpResponse"
+           
+      - create view
+
+          def myView(request):
+              return HttpResponse('Hello')
+              
+          run server --> python manage.py runserver

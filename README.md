@@ -46,3 +46,14 @@ a. create new app within project
 
   - app --> focuses on particular aspect of website
   - project --> single project powers website, can contain multiple apps
+
+b. create new app hello
+
+  - python manage.py startapp hello
+
+c. let django know about the app   (hello)
+
+  - open project in IDE
+  - go to settings.py
+      - add 'hello' in INSTALLED_APPS
+  - create a view for the target URL

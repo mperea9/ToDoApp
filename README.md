@@ -65,6 +65,22 @@ c. let django know about the app   (hello)
       - create view
 
           def myView(request):
-              return HttpResponse('Hello')
+          
+           return HttpResponse('Hello')
               
           run server --> python manage.py runserver
+          
+      - connect django server with URL
+
+          open urls.py in main project directory
+          
+          urlpatterns
+            
+           add --> path('sayHello', myView)      (this receives URL request, responds with function)
+           
+          connect urls.py to views.py
+          
+           --> from hello.views import myView     (imports function)
+
+
+"Still need to provide rest of walk through"
